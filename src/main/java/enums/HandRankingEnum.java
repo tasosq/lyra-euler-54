@@ -1,6 +1,6 @@
 package enums;
 
-public enum HandRanking {
+public enum HandRankingEnum {
     HIGH_CARD,
     PAIR,
     TWO_PAIR,
