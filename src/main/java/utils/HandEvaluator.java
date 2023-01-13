@@ -5,6 +5,7 @@ import enums.Suit;
 import enums.Value;
 import models.Card;
 import models.HandDeepEval;
+import models.RankAndRemainingCards;
 
 import java.util.*;
 import java.util.Map.Entry;

@@ -1,7 +1,6 @@
 package models;
 
 import enums.HandRankingEnum;
-import utils.RankAndRemainingCards;
 
 /**
  * This is a class used to store, the handRankingEnum of the hand (e.g. if it was a STRAIGHT, or a FLUSH) and
