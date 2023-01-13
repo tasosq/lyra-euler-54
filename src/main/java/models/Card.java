@@ -29,6 +29,6 @@ public class Card implements Comparable<Card>{
 
     @Override
     public int compareTo(Card o) {
-        return  value.compareTo(o.value);
+        return  Integer.compare(this.value.ordinal(),o.value.ordinal());
     }
 }

@@ -2,6 +2,7 @@ package utils;
 
 import models.Card;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -16,6 +17,9 @@ public class RankAndRemainingCards {
     public RankAndRemainingCards(List<Card> rankCards, List<Card> remainingCards) {
         this.rankCards = rankCards;
         this.remainingCards = remainingCards;
+        // Sorting from the get go so when we iterate through the cards we start from the higher value one
+        Collections.sort(this.rankCards,((c1, c2) -> (Integer.compare(c2.getValue().ordinal(), c1.getValue().ordinal()))));
+        Collections.sort(this.remainingCards,((c1, c2) -> (Integer.compare(c2.getValue().ordinal(), c1.getValue().ordinal()))));
     }
 
     public List<Card> getRankCards() {

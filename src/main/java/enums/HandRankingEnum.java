@@ -4,11 +4,12 @@ public enum HandRankingEnum {
     HIGH_CARD,
     PAIR,
     TWO_PAIR,
-    TRIPS,
+    THREE_OF_A_KIND,
     STRAIGHT,
     FLUSH,
     FULL_HOUSE,
-    QUADS,
+    FOUR_OF_A_KIND,
     STRAIGHT_FLUSH,
     ROYAL_FLUSH;
+
 }
